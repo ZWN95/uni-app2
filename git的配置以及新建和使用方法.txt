@@ -23,11 +23,11 @@ git clone [url]
 
 git status 查看add状态
 
-git add . 所有文件添加到暂存区，点号代表所有
+git add . 工作区/工作目录下的所有文件添加到暂存区，点号代表所有
 
-git commit -m "这里写一些日志信息" 保存到本地仓库
+git commit -m "这里写一些日志信息" 从暂存区保存到本地仓库
 
-git push 推送到云仓库
+git push 本地仓库推送到云仓库
 
 git branch 查看分支
 
@@ -40,6 +40,17 @@ git checkout [name] 切换分支
 git merge [name] 合并到当前分支
 
 git push -u origin [name] 新建本地和云仓库分支，并推送到云仓库
+
+git fetch 从云仓库下载到本地仓库
+
+git pull 从云仓库下载到到工作区/工作目录
+
+git reset 从本地仓库下载到暂存区
+
+git checkout 从暂存区下载到工作区/工作目录
+
+工作区/工作目录-> 暂存区-> 本地仓库-> 云仓库
+
 
 
 
